@@ -1,0 +1,15 @@
+package collections;
+import java.util.ArrayList;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("하");
+		list.add("헬로우");
+		list.add("하이");
+		list.add("하허허허");
+		System.out.println("list: "+list);
+		System.out.println(list.get(2));
+		System.out.println("list: "+list);
+	}
+}

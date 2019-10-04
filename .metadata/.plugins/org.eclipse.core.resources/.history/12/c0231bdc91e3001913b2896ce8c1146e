@@ -1,0 +1,18 @@
+package test2;
+
+public class Student {
+	public String name;
+	public int score;
+	public int grade;
+
+	
+	public Student() {
+		System.out.println("Successfully initialized");
+	}
+	
+	public void getInfo() {
+		System.out.println("this is super class");
+	}
+	
+}
+

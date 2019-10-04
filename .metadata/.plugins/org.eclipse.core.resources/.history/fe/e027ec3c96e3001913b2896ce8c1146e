@@ -1,0 +1,13 @@
+package test2;
+
+public class MainClass {
+	public static void main(String[] args) {
+		Student student1 = new Student("정재원",3,3);
+		student1.getInfo();
+		GoodStudent student2 = new GoodStudent();
+		student2.getInfo();
+		
+		
+	}
+
+}

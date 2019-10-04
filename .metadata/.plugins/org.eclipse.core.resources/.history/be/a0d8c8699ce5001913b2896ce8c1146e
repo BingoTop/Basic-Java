@@ -1,0 +1,13 @@
+package lambda;
+
+public class MainClass {
+	public static void main(String[] args) {
+		LambdaClass li1 = (String s1, String s2,String s3) -> {System.out.println(s1+"!\t"+s2+"!\t"+s3);};
+		li1.method("Hello", "lambda", "world");
+		
+		// 매개변수가 하나일때 데이터 타입 생략 가능
+		LambdaClass l2 =  (String s1) -> {System.out.println("람다"+s1+"람다");};
+				
+	}
+
+}

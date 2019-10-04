@@ -1,0 +1,10 @@
+package collections;
+import java.util.ArrayList;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("하");
+		System.out.println("list: "+list);
+	}
+}

@@ -1,0 +1,25 @@
+package exception;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MainClass {
+	public static void main(String[] args) {
+		int i = 10;
+		int j = 0;
+		int r = 0;
+		System.out.println("Before");
+		Scanner scanner = new Scanner(System.in);
+		String a = scanner.next();
+		
+		try {
+			r = i / j;
+		}catch(Exception e) {
+			e.printStackTrace();
+			String msg = e.getMessage();
+			System.out.println("msg: "+msg);
+		}
+		System.out.println("After");
+	}
+	
+}

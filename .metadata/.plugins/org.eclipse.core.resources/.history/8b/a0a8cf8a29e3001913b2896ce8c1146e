@@ -1,0 +1,9 @@
+package test;
+
+public class MainClass  {
+	public static void main(String[] args) {
+		Car obj1 = new Car("sonata",2019,"hyundai");
+		obj1.prt();
+	}
+
+}

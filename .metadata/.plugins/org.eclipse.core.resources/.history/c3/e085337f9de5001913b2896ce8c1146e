@@ -1,0 +1,6 @@
+package lambda;
+
+public interface Lambdaclass4 {
+	public void method(int x, int y);
+
+}

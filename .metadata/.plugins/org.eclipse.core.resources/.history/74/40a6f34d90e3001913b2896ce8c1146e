@@ -1,0 +1,9 @@
+package test2;
+
+public class GoodStudent extends Student{
+	
+	public GoodStudent{
+		System.out.println("모범생 생성자가 생성되었습니다.");
+	}
+
+}

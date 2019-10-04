@@ -1,0 +1,24 @@
+package collections;
+import java.util.ArrayList;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("하");
+		list.add("헬로우");
+		list.add("하이");
+		list.add("하허허허");
+		System.out.println("list: "+list);
+		System.out.println(list.get(2));
+		System.out.println("list: "+list);
+		list.set(0, "밖에 비온다 주륵주륵");
+		list.remove(list.size()-1);
+		System.out.println("list: "+list);
+		list.clear();
+		System.out.println("list: "+list);
+		boolean b = list.isEmpty();
+		System.out.println(b);
+		
+		
+	}
+}

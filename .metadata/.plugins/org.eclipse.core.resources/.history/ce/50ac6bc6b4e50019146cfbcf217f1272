@@ -1,0 +1,8 @@
+package filestream;
+
+public class mainclass {
+	public static void main(String[] args) {
+		System.out.print("가나다라마바사");
+	}
+
+}

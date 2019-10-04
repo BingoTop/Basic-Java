@@ -1,0 +1,35 @@
+package collections;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("하");
+		list.add("헬로우");
+		list.add("하이");
+		list.add("하허허허");
+		System.out.println("list: "+list);
+		System.out.println(list.get(2));
+		System.out.println("list: "+list);
+		list.set(0, "밖에 비온다 주륵주륵");
+		list.remove(list.size()-1);
+		System.out.println("list: "+list);
+		list.clear();
+		System.out.println("list: "+list);
+		boolean b = list.isEmpty();
+		System.out.println(b);
+		
+		HashMap<Integer, String> hm = new HashMap<Integer,String>();
+		hm.put(0,"문자열");
+		hm.put(1,"하");
+		boolean c = hm.containsValue("하");
+		System.out.println(c);
+		hm.put(1,"바꿨다.");
+		System.out.println("map: "+hm);
+		
+	
+		
+		
+	}
+}

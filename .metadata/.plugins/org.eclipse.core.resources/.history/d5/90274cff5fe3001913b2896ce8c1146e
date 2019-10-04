@@ -1,0 +1,15 @@
+package test;
+
+public class MainClass  {
+	public static void main(String[] args) {
+		Car obj1 = new Car("sonata",2019,"hyundai");
+		Car obj2 = new Car("k3",2019,"kia");
+		Car obj3 = new Car("k5",2019,"kia");
+		String [] numbers = {"one","two","three"};
+		for(String number : numbers) {
+			System.out.println(number + "hi");
+		}
+		
+	}
+
+}

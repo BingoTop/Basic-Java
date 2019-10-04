@@ -1,0 +1,15 @@
+package test2;
+
+public class GoodStudent extends Student{
+	
+	public GoodStudent() {
+		super();
+		System.out.println("init");
+	}
+	
+	@Override
+	public void getInfo() {
+		System.out.println("this is child");
+	}
+	 
+}

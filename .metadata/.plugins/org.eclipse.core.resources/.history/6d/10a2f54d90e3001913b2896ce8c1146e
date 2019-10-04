@@ -1,0 +1,23 @@
+package test2;
+
+public class Student {
+	public String name;
+	public int score;
+	public int grade;
+
+	
+	public Student(String n, int score, int grade) {
+		this.score = score;
+		this.name = n;
+		this.grade = grade;
+		System.out.println("Successfully initialized");
+	}
+	
+	public void getInfo() {
+		System.out.println("name: " + name);
+		System.out.println("score: " + score);
+		System.out.println("grade: " + grade);
+	}
+	
+}
+

@@ -1,0 +1,22 @@
+
+package test;
+
+
+
+public class Car {
+	
+	public String name;
+	public String brand;
+	public int year;
+	
+	public Car() {
+		System.out.println("CAR INIT");
+	}
+	public void prt() {
+		System.out.println("name: " + name);
+		System.out.println("brand: " + brand);
+		System.out.println("year: " + year);
+		
+	}
+}
+
